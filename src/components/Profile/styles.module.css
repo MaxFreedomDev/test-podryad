@@ -1,0 +1,19 @@
+.profile {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.profile_info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.profile_info span {
+    white-space: nowrap;
+}
+
+.profile_info span:last-child {
+    color: var(--text4);
+}

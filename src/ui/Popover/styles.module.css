@@ -1,0 +1,9 @@
+.popover {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    z-index: 100;
+    box-shadow: 0 23px 80px rgba(0, 0, 0, 0.03), 0 8.39538px 29.2013px rgba(0, 0, 0, 0.0206994), 0 4.0758px 14.1767px rgba(0, 0, 0, 0.0166887), 0 1.99803px 6.94968px rgba(0, 0, 0, 0.0133113), 0 0.790025px 2.74791px rgba(0, 0, 0, 0.00930055);
+    border-radius: 16px;
+    width: 316px;
+}

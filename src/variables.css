@@ -1,0 +1,24 @@
+:root {
+    --text1: #000000;
+    --text2: #242429;
+    --text3: #5E5F6B;
+    --text4: #757685;
+    --text5: #9697A3;
+
+    --icon1: #9AA5B7;
+    --icon2: #B3BAC7;
+
+    --stroke1: #E8EBF0;
+    --stroke2: #E1E3FF;
+
+    --grey0: #F5F5FA;
+    --grey1: #EBECF5;
+
+    --alert: #E12C2C;
+    --accept: #08C3AD;
+
+    --white: #FFFFFF;
+
+    --blue1: #0C1BB1;
+    --blue2: #000FA8;
+}

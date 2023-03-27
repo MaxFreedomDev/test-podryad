@@ -1,0 +1,23 @@
+.avatar {
+    height: 34px;
+    width: 34px;
+    border-radius: 99px;
+
+    background-color: var(--grey1);
+    animation: scale 4s infinite;
+
+}
+
+.line {
+    height: 22px;
+    border-radius: 6px;
+    width: 162px;
+
+    background-color: var(--grey1);
+    animation: scale 4s infinite;
+}
+
+@keyframes scale {
+    0% {transform: scale(0.9)}
+    100% {transform: scale(1)}
+}

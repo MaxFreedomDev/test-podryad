@@ -1,0 +1,30 @@
+{
+  "name": "test-podryad",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"npm run dev\" \"npm run server\"",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch src/db.json --port 3004"
+  },
+  "dependencies": {
+    "mobx": "^6.9.0",
+    "mobx-react-lite": "^3.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.7",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "concurrently": "^7.6.0",
+    "json-server": "^0.17.3",
+    "prettier": "2.8.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
